@@ -4,6 +4,13 @@
   
     
     <entry>
+      <title><![CDATA[使用display none对seo的影响]]></title>
+      <url>http://yoursite.com/2016/09/25/%E4%BD%BF%E7%94%A8display-none%E5%AF%B9seo%E7%9A%84%E5%BD%B1%E5%93%8D/</url>
+      <content type="html"><![CDATA[<p>前端开发工程师在制作html的页面过程中，有时候为了达到 SEO 与界面美观，不得不采用一些隐藏文本的办法。不仅是网易、腾讯等大型门户网站如此，小网站在网站 LOGO 上采用文本背景、文本缩进等方式的也屡见不鲜。<br>采用 display:none 的做法唯一的一个弊端就是代码所隐藏的文字很有可能会被引擎误以为的垃圾信息，从而忽略其内容。在这个说法的前提下，display:none 仅仅作为达到界面样式的作用，而失去了 SEO 的作用。<br>如果说因 display:none 样式导致网站被 K ，有点说不过去了。除非是网站中大量的站外链接都设置 display:none 样式，这种情况下会被认为是黑链。<br>display:none有所不足就肯定要想办法解决，针对 SEO 最佳隐藏文本的办法是：<br>1.使用 .seowhy{display: block;height: 0;width: 0;overflow: hidden;}<br>2.其次还可以使用 visibility:hidden; 样式，但是它会占据一定的文本流空间。<br>前端伙伴们可以根据自己的项目需求做出选择！好啦，碎片时间不宜长篇大论，小小的案例就到此结束啦，是不是又get到新技能啦！</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hello World]]></title>
       <url>http://yoursite.com/2016/09/24/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
